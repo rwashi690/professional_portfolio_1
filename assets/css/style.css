@@ -1,0 +1,21 @@
+h1 {
+    padding: 60px;
+    text-align: center;
+    background:white;
+    color: black;
+  }
+
+.project1{
+    flex: 70%;
+    background: lightblue;
+    color:black;
+    padding: 20px;
+    margin: 0px;
+}
+
+aside {
+    flex: 30%;
+    background-color: #043a81;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
