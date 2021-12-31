@@ -1,39 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<!-- I am going to use Bootstrap to complete my porfessional portfolio corrections -->
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Professional Portfolio</title>
 </head>
-
 <body>
-    <div class="header">
-        <div><h1>Rachel Washington</h1></div>
-        <div>
-            <ul>
-                <li><a href="aboutme">About Me</a></li>
-                <li><a href="https://github.com/rwashi690">GitHub</a></li>
-                <li><a href="contactme">Contact Information</a></li>
-            </ul>
-
+    <!-- The text for the top of the page -->
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-lg-">
+                <div class="row">
+                    <h1 class="display-4 col">Rachel Elizabeth Washington</h1>
+                </div>
+                <div class="lead row justify-content-center button_format">
+                    <a class="btn col mr-2 btn-outline-dark" href="https://github.com/rwashi690" role="button">GitHub</a>
+                    <a class="btn col mr-2  btn-outline-dark" href="./CV.html" role="button">CV</a>
+                    <a class="btn col mr-2  btn-outline-dark" href="./contact.html" role="button">Contact Info</a>
+                </div>
+            </div>
+            <div class="col">
+                <img class="image_format img-responsive float-right" src="assets/images/IMG_2276.jpeg" alt="A picture of Rachel smiling with her hair in a bun against a brick wall">
+            </div>      
         </div>
-        <div>
-            <img src="assets/images/IMG_2276.jpeg">
+    </div>
+<!-- Text for about me section -->
+<div class="row">
+    <div class="card col text-center" style="width: 18rem;">
+        <img class="card-img-top about_image_format" src="./assets/images/road2.jpg" alt="Green forrest surrounding a winding road">
+        <div class="card-body">
+            <a class="card-text btn btn-success btn-lg btn-block"  href="./codingjourney.html" >Coding Journey</a>
         </div>
-
     </div>
 
-    <div class="project">
-        <h2>Project 1</h2>
+    <div class="card col text-center" style="width: 18rem;">
+        <img class="card-img-top about_image_format2" src="./assets/images/graduation_cap.jpg" alt="A blue graduation cap with a yellow tassel">
+        <div class="card-body">
+            <a class="card-text btn btn-warning btn-lg btn-block"  href="./education.html">Education and Awards</a>
+        </div>
     </div>
-    <div class="project">
-        <h2>Project 2</h2>
+
+    <div class="card col text-center" style="width: 18rem;">
+        <img class="card-img-top about_image_format3" src="./assets/images/graphene_Fe.png" alt="A sheet of graphene with an iron atom embedded in the structure">
+        <div class="card-body">
+            <a class="card-text btn btn-primary btn-lg btn-block"  href="./thesis.html">Masters of Science</a>
+        </div>
     </div>
-    <div class="project">
-        <h2>Project 3</h2>
+
+</div>
+<!-- Text for the projects -->
+  <div class="card col-l border-info mb-3">
+    <h5 class="card-header">Featured Project</h5>
+    <div class="card-body">
+      <img class="card-img" src="./assets/images/project1.jpg" alt="Books in a line">
+      <a href="./project1.html" class="btn btn-info float-right button_project_format">Visit Project</a>
     </div>
-    
+  </div>
+
+<div class="row">
+    <div class="col-sm-6">
+      <div class="card border-info mb-3">
+        <h5 class="card-header">Project 2</h5>
+        <div class="card-body">
+          <img class="card-img" src="./assets/images/project2.jpg" alt="Window glass panes">
+          <a href="./project2.html" class="btn btn-info float-right button_project_format">Visit Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="card border-info mb-3">
+        <h5 class="card-header">Project 3</h5>
+        <div class="card-body">
+          <img class="card-img" src="./assets/images/project2.jpg" alt="Window glass panes">
+          <a href="./project3.html" class="btn btn-info float-right button_project_format">Visit Project</a>
+        </div>
+      </div>
+    </div>
+</div>
+
 </body>
 
 </html>
